@@ -1,0 +1,12 @@
+{
+   "Name": "Paritee's John Deere Tractor",
+   "Author": "Paritee",
+   "Version": "1.0.0",
+   "Description": "Replaces the default tractor skin with a John Deere tractor skin",
+   "UniqueID": "Paritee.JohnDeereTractor",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:3350" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.TractorMod"
+   }
+}
