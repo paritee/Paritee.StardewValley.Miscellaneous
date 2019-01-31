@@ -1,0 +1,12 @@
+{
+   "Name": "Paritee's Gravel Path Fix",
+   "Author": "Paritee",
+   "Version": "1.0.0",
+   "Description": "Fixes the gravel path",
+   "UniqueID": "Paritee.GravelPathFix",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:0000" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
