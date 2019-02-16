@@ -1,0 +1,12 @@
+{
+   "Name": "Paritee's Consistent Ore Bars",
+   "Author": "Paritee",
+   "Version": "1.0.0",
+   "Description": "Makes the refined ore consistent in appearance and name",
+   "UniqueID": "Paritee.ConsitentOreBars",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:0000" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

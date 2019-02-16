@@ -1,0 +1,120 @@
+{
+  "Format": "1.0",
+  "Changes": [
+
+    // ------------------------------------------------------------------------
+    // Sprites
+    // ------------------------------------------------------------------------
+    
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/copperbar.png",
+      "ToArea": { "X": 352, "Y": 208, "Width": 16, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/ironbar.png",
+      "ToArea": { "X": 368, "Y": 208, "Width": 16, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/iridiumbar.png",
+      "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 16 }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/quartzbar.png",
+      "ToArea": { "X": 32, "Y": 224, "Width": 16, "Height": 16 }
+    },
+
+    // ------------------------------------------------------------------------
+    // Data
+    // ------------------------------------------------------------------------
+
+     {
+      "Action": "EditData",
+      "Target": "Data/ObjectInformation",
+      "Fields": {
+       "338": {
+        "4": "Quartz Bar",
+        "5": "A bar of pure quartz."
+       }
+      }
+     },
+
+    // ------------------------------------------------------------------------
+    // Localization
+    // ------------------------------------------------------------------------
+    
+    {
+      "Action": "EditData",
+      "Target": "Data/ObjectInformation",
+      "Fields": {
+        "338": {
+          "4": "Quarzbarren",
+          "5": "Ein Barren aus purem Quarz."
+        }
+      },
+      "When": { "Language": "de" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ObjectInformation",
+      "Fields": {
+        "338": {
+          "4": "Lingote de cuarzo",
+          "5": "Una barra de cuarzo puro."
+        }
+      },
+      "When": { "Language": "es" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ObjectInformation",
+      "Fields": {
+        "338": {
+          "4": "石英ののべ棒",
+          "5": "石英でできたのべ棒。"
+        }
+      },
+      "When": { "Language": "ja" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ObjectInformation",
+      "Fields": {
+        "338": {
+          "4": "Barra de quartzo",
+          "5": "Uma barra de quartzo puro."
+        }
+      },
+      "When": { "Language": "pt" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ObjectInformation",
+      "Fields": {
+        "338": {
+          "4": "Кварц слиток",
+          "5": "Слиток чистого кварца."
+        }
+      },
+      "When": { "Language": "ru" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ObjectInformation",
+      "Fields": {
+        "338": {
+          "4": "石英锭",
+          "5": "一条纯石英锭。"
+        }
+      },
+      "When": { "Language": "zh" },
+    },
+  ]
+}
